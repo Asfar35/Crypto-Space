@@ -1,2 +1,2 @@
 # Crypto-Space
-A crypto Updates webapp
+A crypto currency Updates webapp
