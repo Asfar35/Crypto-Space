@@ -1,0 +1,8 @@
+#pricing-div{
+    font-size: 50px;
+    font-weight: bold;
+}
+#pricing-li{
+    padding-bottom: 5px;
+    /* border-bottom: 2px solid #fff; */
+}

@@ -1,0 +1,90 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#first{
+    margin-top: 50px;
+    text-align: center;
+}
+#first>h1{
+    font-size: 35px;
+}
+#first>p{
+    margin-top: 25px;
+}
+#second{
+    margin-top: 20px;
+    margin-bottom: 35px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 7px;
+}
+#coin{
+    padding-left: 3rem;
+}
+#search-input{
+    color: black;
+    background: none;
+    font-size: 15px;
+    padding: 10px;
+    width: 25vw;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+#search-btn{
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    /* background-color: #7827ff; */
+    background-color: #6722d6;
+    cursor: pointer;
+}
+table{
+    border-collapse: collapse;
+    /* text-align: center; */
+    margin-top: 10px;
+    width: 60vw;
+    /* background-color: #26124d; */
+    background-color: #2a3141;
+    border: none;
+    border-radius: 10px;
+    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+th{
+    text-align: start;
+    padding: 1rem;
+
+}
+td{
+    padding-left: 1rem;
+}
+tbody tr:nth-child(odd) {
+    background-color: #171b26;
+}
+  
+tbody tr:nth-child(even) {
+    background-color: #2a3141;
+}
+.coin-info{
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.coin-img{
+    margin-left: 10px;
+    height: 35px;
+}
+#Red{
+    color: #db7b7d;
+}
+#Green{
+    color: green;
+}
